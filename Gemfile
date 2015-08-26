@@ -7,12 +7,6 @@ gem 'rails', '4.2.1'
 gem 'sqlite3', group: [:development, :test]
 # Use SCSS for stylesheets
 
-# Use bootstrap library for styles
-gem 'bootstrap-sass', '3.3.1'
-
-# Add Font Awesome for CSS Icons and Logo's
-gem 'font-awesome-sass', '4.2.0'
-
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -20,6 +14,10 @@ group :production do
 end
 
 gem 'sass-rails', '~> 5.0'
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.1'
+# Add Font Awesome for CSS Icons and Logo's
+gem 'font-awesome-sass', '4.2.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
